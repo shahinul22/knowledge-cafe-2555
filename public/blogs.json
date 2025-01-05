@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co.com/jh1m9tr/ayo-ogunseinde-6-W4-F62s-N-y-I-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/PYfF7fT/rb-2150070704.png",
+      "title": "The Future of AI",
+      "posted_date": "2025-01-01",
+      "reading_time": 5,
+      "hashtags": ["#AI", "#Technology", "#Future"]
+    },
+    {
+      "id": 2,
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co.com/WWpgcVT/mahdi-chaghari-Zm-HKp-X4hpgg-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/rkbRhR0/high-angle-plant-notebook-frame.jpg",
+      "title": "A Beginner's Guide to React",
+      "posted_date": "2025-01-03",
+      "reading_time": 7,
+      "hashtags": ["#React", "#JavaScript", "#WebDevelopment"]
+    },
+    {
+      "id": 3,
+      "author": "Ali Khan",
+      "author_img": "https://i.ibb.co.com/xFgJYxZ/irina-iriser-v-PZMZsp-a04-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/Gn7WBJ7/glasses-lie-laptop-reflecting-light-from-screen-dark.jpg",
+      "title": "Top 10 Tailwind CSS Tips",
+      "posted_date": "2025-01-04",
+      "reading_time": 4,
+      "hashtags": ["#TailwindCSS", "#CSS", "#Frontend"]
+    },
+    {
+      "id": 4,
+      "author": "Maria Garcia",
+      "author_img": "https://i.ibb.co.com/BtdJHzr/rodolfo-sanches-carvalho-7-OMJMlw-Nk-G4-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/gTyjLf1/christopher-campbell-h9-Rx3z-OYZws-unsplash.jpg",
+      "title": "How to Stay Productive as a Developer",
+      "posted_date": "2024-12-30",
+      "reading_time": 6 ,
+      "hashtags": ["#Productivity", "#Developers", "#WorkLife"]
+    },
+    {
+      "id": 5,
+      "author": "Liam Brown",
+      "author_img": "https://i.ibb.co.com/5vHkQxD/allef-vinicius-mu-Ierz-TVhrs-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/wg9Gx4X/arnel-hasanovic-MNd-Rka1o0-Q-unsplash.jpg",
+      "title": "Understanding JavaScript Closures",
+      "posted_date": "2025-01-02",
+      "reading_time": 8,
+      "hashtags": ["#JavaScript", "#Programming", "#WebDevelopment"]
+    }
+  ]
+  

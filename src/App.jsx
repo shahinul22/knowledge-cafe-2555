@@ -1,16 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import Header from './components/header/Header';
+import Blogs from './components/Blogs/Blogs';
+import Bookmarks from './components/Bookmarks/Bookmarks';
+import { useState } from 'react';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [bookmarks, setBookmarks] = useState([]);
+  const [time, setTime] = useState(0);
+
+
+  const handleAddToBookmarks = (blog) => {
+    if (!bookmarks.includes(blog)) {
+      const newBookmarks = [...bookmarks, blog];
+      setBookmarks(newBookmarks);
+      
+    }
+  };
+
+  const handleAddTime = (readingTime) => {
+    console.log('Adding reading time:', readingTime);
+    setTime((prevTime) => prevTime + readingTime);
+};
+
+
+
 
   return (
     <>
-      <h1 className='text-2xl'>Knowledge Cafe</h1>
+      <Header />
+      <div className="md:flex gap-5 max-w-7xl mx-auto mt-10">
+        <Blogs
+          handleAddToBookmarks={handleAddToBookmarks}
+          handleAddTime={handleAddTime}
+        />
+        <Bookmarks bookmarks={bookmarks} time={time} />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
