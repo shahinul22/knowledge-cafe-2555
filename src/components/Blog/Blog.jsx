@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark as farBookmark } from '@fortawesome/free-regular-svg-icons';
 
 const Blog = ({ blog, handleAddToBookmarks, handleAddTime }) => {
-  const { title, cover, reading_time, author, author_img, posted_date, hashtags } = blog;
+  const { id, title, cover, reading_time, author, author_img, posted_date, hashtags } = blog;
 
   return (
     <div className="card bg-base-400 w-full shadow-gray-500 shadow-xl space-y-3 p-4 mb-10">
@@ -42,7 +42,7 @@ const Blog = ({ blog, handleAddToBookmarks, handleAddTime }) => {
           ))}
         </p>
         <button
-          onClick={() => handleAddTime(reading_time)}
+          onClick={() => handleAddTime(id,reading_time)}
           className="rounded-3xl hover:bg-violet-800 text-right w-28 p-2 bg-gray-500 text-white mt-4"
         >
           Mark as read
